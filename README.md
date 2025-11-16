@@ -5,7 +5,7 @@ A complete data analysis project using **Power BI** to study Blinkit’s grocery
 
 
 # 📁 Project Overview
---
+
 This project analyzes Blinkit’s grocery sales data to uncover:
 
 - Sales patterns  
@@ -15,16 +15,13 @@ This project analyzes Blinkit’s grocery sales data to uncover:
 - Fat content influence  
 - Customer satisfaction metrics  
 
---
-
 # 🎯 Business Requirement
---
+
 To perform a comprehensive analysis of Blinkit’s sales performance, customer satisfaction, and inventory distribution using KPIs and Power BI visualizations.
 
---
 
 # 📊 Dataset Overview
---
+
 The dataset includes:
 
 - Item type  
@@ -36,10 +33,9 @@ The dataset includes:
 - Establishment year  
 - Ratings  
 
---
 
 # 🧹 Data Cleaning (Power Query)
---
+
 Only one major cleaning step was required:
 
 ### **Standardizing Item Fat Content**
@@ -48,10 +44,10 @@ Only one major cleaning step was required:
 
 This ensured consistent grouping during analysis.
 
---
+
 
 # 🧮 DAX Measures
---
+
 ```dax
 -- Total Sales
 Total Sales =
@@ -70,19 +66,18 @@ Average Rating =
 AVERAGE('Blinkit'[Rating])
 ```
 
---
+
 
 # 📌 KPI Requirements
---
+
 - **Total Sales** – Overall revenue  
 - **Average Sales** – Revenue per sale  
 - **Number of Items** – Total unique items sold  
 - **Average Rating** – Customer satisfaction  
 
---
+
 
 # 📈 Chart Requirements
---
 
 ### **1. Total Sales by Fat Content**  
 - Objective: Analyze fat content impact  
@@ -112,19 +107,15 @@ AVERAGE('Blinkit'[Rating])
 - Objective: KPI comparison by outlet type  
 - Chart: Matrix Card  
 
---
+
 
 # 🖥️ Dashboard Preview
---
-(Add your dashboard screenshot here)
 
-Example:  
 ![Dashboard](dashboard.png)
 
---
 
 # 🔍 Insights Generation
---
+
 
 ### **1. Regular Items Outsell Low-Fat Items**  
 Regular products contribute more revenue.
@@ -156,28 +147,27 @@ Placement strategy affects sales.
 ### **10. Majority of Revenue Comes from Top Categories**  
 Sales are concentrated in high-demand items.
 
---
+
 
 # 🛠 Tools Used
---
+
 - Power BI Desktop  
 - Power Query  
 - Microsoft Excel  
 - DAX (Data Analysis Expressions)  
 
---
 
 # 📂 Project Files
---
+
 - Blinkit Sales Analysis.pbix  
 - Blinkit Dataset.xlsx  
 - Report.pdf  
 - README.md  
 
---
+
 
 # 📌 Conclusion
---
+
 This Power BI project provides clear and actionable insights into Blinkit’s sales performance, helping identify business opportunities, customer preferences, and improvement areas.
 
---
+
