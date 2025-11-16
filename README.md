@@ -71,7 +71,22 @@ Avg Rating = AVERAGE('BlinkIT Grocery Data'[Rating])
 - **Number of Items** – Total unique items sold  
 - **Average Rating** – Customer satisfaction  
 
+# 🧮 Metrics Created
 
+--
+To organize the KPIs cleanly inside Power BI, a Metrics group was created using the following structure:
+```Metrics = {
+    ("Total Sales", NAMEOF('BlinkIT Grocery Data'[Total Sales]), 0),
+    ("Avg Sales", NAMEOF('BlinkIT Grocery Data'[Avg Sales]), 1),
+    ("No of Items", NAMEOF('BlinkIT Grocery Data'[No of Items]), 2),
+    ("Avg Rating", NAMEOF('BlinkIT Grocery Data'[Avg Rating]), 3)
+}
+```
+Purpose of Creating Metrics
+-- To group all KPI measures in one place
+-- To keep the data model clean and well-organized
+-- To reuse KPIs across visuals easily
+-- To maintain consistent naming and improve report readability
 
 # 📈 Chart Requirements
 
