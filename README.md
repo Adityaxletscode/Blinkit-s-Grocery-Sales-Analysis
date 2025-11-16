@@ -73,7 +73,6 @@ Avg Rating = AVERAGE('BlinkIT Grocery Data'[Rating])
 
 # 🧮 Metrics Created
 
---
 To organize the KPIs cleanly inside Power BI, a Metrics group was created using the following structure:
 ```
 Metrics = {
