@@ -49,21 +49,17 @@ This ensured consistent grouping during analysis.
 # 🧮 DAX Measures
 
 ```dax
--- Total Sales
-Total Sales =
-SUM('Blinkit'[Sales])
+Total Sales
+Total Sales = SUM('BlinkIT Grocery Data'[Sales])
 
--- Average Sales
-Average Sales =
-AVERAGE('Blinkit'[Sales])
+Average Sales
+Avg Sales = AVERAGE('BlinkIT Grocery Data'[Sales])
 
--- Number of Items
-Number of Items =
-DISTINCTCOUNT('Blinkit'[Item_ID])
+Number of Items
+No of Items = COUNTROWS('BlinkIT Grocery Data')
 
--- Average Rating
-Average Rating =
-AVERAGE('Blinkit'[Rating])
+Average Rating
+Avg Rating = AVERAGE('BlinkIT Grocery Data'[Rating])
 ```
 
 
