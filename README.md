@@ -1,9 +1,8 @@
 # 📊 Blinkit Grocery Sales Analysis – Power BI Dashboard
---
+
 
 A complete data analysis project using **Power BI** to study Blinkit’s grocery sales performance, customer behavior, and outlet efficiency.
 
---
 
 # 📁 Project Overview
 --
